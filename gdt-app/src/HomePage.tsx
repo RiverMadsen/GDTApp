@@ -3,9 +3,20 @@ import logo from './logo.svg';
 import './App.css';
 
 function HomePage() {
-  return (
-    <h2>HOME PAGE</h2>
-  );
+    return (
+        <div>
+            <h2>HOME PAGE</h2>
+            <div className="gdt-red">gdt-red <span className="gdt-text">Used for primary trail and errors</span></div>
+            <div className="gdt-orange">gdt-orange <span className="gdt-text">Used as alternates and headers</span></div>
+            <div className="gdt-yellow">gdt-yellow <span className="gdt-text">Used as warning text and values in key/value pairs</span></div>
+            <div className="gdt-green">gdt-green <span className="gdt-text">Used for side route or to indicate success or an "on" state</span></div>
+            <div className="gdt-blue">gdt-blue <span className="gdt-text">Used for sub-headers or for keys in a key/value pair</span></div>
+            <div className="gdt-violet">gdt-violet <span className="gdt-text">Used for captions</span></div>
+            <div className="gdt-text">gdt-text <span className="gdt-text">Used for text</span></div>
+            <div className="gdt-dim">gdt-dim <span className="gdt-text">Used for diabled buttons or diminished text</span></div>
+        </div>
+
+    );
 }
 
 export default HomePage;
