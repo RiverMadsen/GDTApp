@@ -1,12 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HomePage from './HomePage';
 
-function App() {
+function HomePage() {
   return (
-    <HomePage></HomePage>
+    <h2>HOME PAGE</h2>
   );
 }
 
-export default App;
+export default HomePage;
