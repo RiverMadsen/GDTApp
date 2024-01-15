@@ -59,3 +59,11 @@ body {
     transform: rotate(360deg);
   }
 }
+.contentContainer {
+  background-color: black;
+  position: absolute;
+  width: 100vw;
+  height: 50vh;
+  top:50vh;
+  padding:5px;
+}

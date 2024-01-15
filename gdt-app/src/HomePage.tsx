@@ -1,13 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import styles from  './HomePage.module.css';
+import { useNavigate } from 'react-router-dom';
 
 function HomePage() {
+    const navigate = useNavigate();
+
     return (
-        <div>
+        <div className={styles.homePage}>
             
             <h2>HOME PAGE</h2>
-            <div className="gdt-red">gdt-red <span className="gdt-text">Used for primary trail and errors</span></div>
+            <button className='btn btn-primary' onClick={() => navigate('/downloads')}>Go to Downloads</button>
+            {/* <div className="gdt-red">gdt-red <span className="gdt-text">Used for primary trail and errors</span></div>
             <div className="gdt-orange">gdt-orange <span className="gdt-text">Used as alternates and headers</span></div>
             <div className="gdt-yellow">gdt-yellow <span className="gdt-text">Used as warning text and values in key/value pairs</span></div>
             <div className="gdt-green">gdt-green <span className="gdt-text">Used for side route or to indicate success or an "on" state</span></div>
@@ -21,7 +26,7 @@ function HomePage() {
             <button type="button" className='btn btn-secondary'>Secondary</button>
             <button type="button" className='btn btn-danger'>Danger</button>
             <button type="button" className='btn btn-warning'>Warning</button>
-            <button type="button" className='btn btn-info'>Info</button>
+            <button type="button" className='btn btn-info'>Info</button>  */}
         </div>
 
     );
