@@ -1,53 +1,42 @@
 
-html, body {
-  box-sizing: border-box;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-
-body {
-  margin: 0;
-  color:white;
-  width: 100vw;
-  height: 100vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden;
-  background-color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* Note that colors matche bootstrap buttons  */
 .gdt-red{
-  color:hsl(340, 100%, 50%);
+  color:hsl(354, 100%, 50%);
 }
 .gdt-orange{
-  color:hsl(40, 100%, 50%);
+  color:hsl(45, 100%, 50%);
 }
 .gdt-yellow{
-  color:hsl(70, 100%, 50%);
+  color:hsl(60, 100%, 50%);
 }
 .gdt-green{
-  color:hsl(130, 100%, 50%);
+  color:hsl(152, 100%, 50%);
 }
-.gdt-blue{
-  color:hsl(200, 100%, 50%);
+.gdt-blue{ 
+  color:hsl(216, 100%, 70%);
 }
 .gdt-violet{
-  color:hsl(270, 100%, 50%);
+  color:hsl(270, 100%, 70%);
+}
+.gdt-info{
+  color:hsl(190, 90%, 50%);
 }
 .gdt-text{
   color:rgb(255, 255, 255);
 }
 .gdt-dim{
   color:rgb(123, 123, 123);
+}
+.map {
+  position: absolute;
+  background-color: chartreuse;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
 }

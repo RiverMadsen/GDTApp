@@ -5,7 +5,11 @@ import HomePage from './HomePage';
 
 function App() {
   return (
-    <HomePage></HomePage>
+    <div>
+      <div className='map'></div>
+      <HomePage></HomePage>
+    </div>
+    
   );
 }
 
