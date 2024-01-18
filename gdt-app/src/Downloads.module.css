@@ -1,3 +1,8 @@
 .downloadsPage {
     background-color: rgb(85, 0, 255);
 }
+input[type="checkbox"] {
+    margin-left: 20px;
+    margin-top:10px;
+}
+

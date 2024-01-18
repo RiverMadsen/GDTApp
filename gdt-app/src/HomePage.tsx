@@ -12,6 +12,7 @@ function HomePage() {
             
             <h2>HOME PAGE</h2>
             <button className='btn btn-primary' onClick={() => navigate('/downloads')}>Go to Downloads</button>
+            <button className='btn btn-primary' onClick={() => navigate('/mapping')}>Go to Mapping</button>
             {/* <div className="gdt-red">gdt-red <span className="gdt-text">Used for primary trail and errors</span></div>
             <div className="gdt-orange">gdt-orange <span className="gdt-text">Used as alternates and headers</span></div>
             <div className="gdt-yellow">gdt-yellow <span className="gdt-text">Used as warning text and values in key/value pairs</span></div>

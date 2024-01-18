@@ -1,4 +1,14 @@
-
+:root {
+  --gdt-red: hsl(354, 100%, 50%);
+  --gdt-orange: hsl(45, 100%, 50%);
+  --gdt-yellow: hsl(60, 100%, 50%);
+  --gdt-green: hsl(152, 100%, 50%);
+  --gdt-blue: hsl(216, 100%, 70%);
+  --gdt-violet: hsl(270, 100%, 70%);
+  --gdt-dim: rgb(123, 123, 123);
+  --gdt-info: hsl(190, 90%, 50%);
+  --gdt-white: rgb(255, 255, 255);
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -32,11 +42,26 @@ code {
 .gdt-dim{
   color:rgb(123, 123, 123);
 }
+.gdt-subheader{
+  color:hsl(45, 100%, 50%);
+}
+.gdt-key{
+  color: var(--gdt-blue)
+}
+.gdt-value{
+  color: var(--gdt-yellow)
+}
+.gdt-attention{
+  color:var(--gdt-red);
+}
+.gdt-v10{
+  margin-top: 10px;
+}
 .map {
   position: absolute;
-  background-color: chartreuse;
+  background-color: var(--gdt-green);
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 20%;
 }
